@@ -32,3 +32,26 @@ Re-optimizing dependencies because lockfile has changed
   ➜  press h + enter to show help
 
 ```
+
+
+## テスト実行
+
+```sh
+❯❯❯ yarn test
+yarn run v1.22.22
+$ vitest
+
+ DEV  v1.6.0 /Users/nishimuraisamu/workspace/vitest-try
+
+ ✓ src/test/components/HelloWorld.spec.ts (1)
+   ✓ 初期表示
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  19:16:22
+   Duration  397ms (transform 76ms, setup 0ms, collect 103ms, tests 11ms, environment 80ms, prepare 43ms)
+
+
+ PASS  Waiting for file changes...
+       press h to show help, press q to quit
+```
