@@ -2,6 +2,7 @@
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import path from 'path'
 
 export default defineConfig({
   plugins: [
@@ -11,4 +12,10 @@ export default defineConfig({
     globals: true,
     environment: 'happy-dom',
   },
+  resolve: {
+    // @をエイリアスとして設定している
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
+  }
 })
