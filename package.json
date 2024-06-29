@@ -10,6 +10,8 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@vue/test-utils": "^2.4.0-alpha.2",
+    "happy-dom": "^14.12.3",
     "vue": "^3.4.29",
     "yarn": "^1.22.22"
   },
