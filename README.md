@@ -1,6 +1,6 @@
 # Vue 3 + TypeScript + Vite で Vitestの勉強をするためのリポジトリ
 - ゴール
-  -　Vitestでテストを動かす
+  - Vitestでテストを動かす
   - google map api を用いたテストを書いてみる
    
 ## 環境構築
