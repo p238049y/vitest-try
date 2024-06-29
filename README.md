@@ -4,6 +4,7 @@
   - google map api を用いたテストを書いてみる
    
 ## 環境構築
+- [Vitest Getting Started](https://vitest.dev/guide/)
 - [Vue.js + Vitest でテストを実行できる環境を作る](https://qiita.com/_kt15_/items/e4a16b2ff2a96cda1d32)で環境構築を実施
 
 ## 起動
