@@ -15,6 +15,7 @@
     "happy-dom": "^14.12.3",
     "sass": "^1.77.6",
     "vue": "^3.4.29",
+    "vue-router": "^4.4.0",
     "yarn": "^1.22.22"
   },
   "devDependencies": {
