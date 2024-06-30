@@ -12,6 +12,7 @@
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.6",
     "@mdi/font": "^7.4.47",
+    "@soleo/google-maps-vitest-mocks": "^2.21.5",
     "@vue/test-utils": "^2.4.0-alpha.2",
     "happy-dom": "^14.12.3",
     "i18n": "^0.15.1",
