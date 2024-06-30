@@ -1,5 +1,5 @@
 import { Loader } from "@googlemaps/js-api-loader";
-import { GOOGLE_MAP_API_KEY } from ".";
+import { GOOGLE_MAP_API_KEY, GOOGLE_MAP_ID } from ".";
 
 /**
  * GoogleMapを使用するにあたり設定するものを定義したモジュール
@@ -26,7 +26,8 @@ export const useGoogleMapSetUp = () => {
     }
 
     const createMapInstance = (mapDiv: HTMLElement, option?: google.maps.MapOptions) => {
-        return new google.maps.Map(mapDiv, {...option})
+        console.log('3')
+        return new google.maps.Map(mapDiv, {...option, mapId: GOOGLE_MAP_ID })
     }
 
     return {googleMapApiLoader, mapCommonOption, createMapInstance}
