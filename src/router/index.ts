@@ -17,7 +17,6 @@ router.beforeEach(async () => {
     const {googleMapApiLoader} = useGoogleMapSetUp();
 
     try {
-        console.log('4')
         await googleMapApiLoader.importLibrary('maps')
     } catch (e) {
         console.error('マップの読み込みに失敗しました')

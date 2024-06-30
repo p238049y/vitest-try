@@ -8,7 +8,6 @@ const mapElment = ref<HTMLDivElement>()
 
 const mapObj = computed(() => {
   if (mapElment.value && mapElment.value instanceof HTMLDivElement) {
-    console.log('6')
     return createMapInstance(mapElment.value, {...mapCommonOption, mapTypeId: google.maps.MapTypeId.HYBRID})
   } else {
     return null;
@@ -20,14 +19,11 @@ defineExpose({mapObj, mapElment})
 onMounted(async() => {
   const {googleMapApiLoader } = useGoogleMapSetUp();
   try {
-    console.log('1')
     await googleMapApiLoader.importLibrary('maps')
 
     if (mapElment.value && mapElment.value instanceof HTMLDivElement) {
-      console.log('2')
       return createMapInstance(mapElment.value, {...mapCommonOption, mapTypeId: google.maps.MapTypeId.HYBRID})
     } else {
-      console.log('5')
       return null;
     }
   } catch (e) {

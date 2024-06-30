@@ -26,7 +26,6 @@ export const useGoogleMapSetUp = () => {
     }
 
     const createMapInstance = (mapDiv: HTMLElement, option?: google.maps.MapOptions) => {
-        console.log('3')
         return new google.maps.Map(mapDiv, {...option, mapId: GOOGLE_MAP_ID })
     }
 
