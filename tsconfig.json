@@ -9,11 +9,14 @@
     }
   ],
   "compilerOptions": {
+    "types": [
+      "vitest/importMeta"
+    ],
     "baseUrl": "./src",
     "paths": {
       "@/*": [
         "./*" 
       ]       
-    }    
+    }
   }
 }
