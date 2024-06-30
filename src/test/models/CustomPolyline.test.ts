@@ -16,7 +16,7 @@ const initialPolyline = () => {
       ...mapCommonOption,
     });
     polyline.setMap(map);
-  };
+};
 
 describe('CustomPolylineを編集可能かどうかを判定するメソッドであるisEditableのテスト', () => {
     initialize();
