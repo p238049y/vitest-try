@@ -10,12 +10,17 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.6",
     "@vue/test-utils": "^2.4.0-alpha.2",
     "happy-dom": "^14.12.3",
+    "sass": "^1.77.6",
     "vue": "^3.4.29",
     "yarn": "^1.22.22"
   },
   "devDependencies": {
+    "@googlemaps/jest-mocks": "^2.21.4",
+    "@googlemaps/markerclusterer": "^2.5.3",
+    "@types/google.maps": "^3.55.11",
     "@types/node": "^20.14.9",
     "@vitejs/plugin-vue": "^5.0.5",
     "typescript": "^5.2.2",
